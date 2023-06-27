@@ -20,7 +20,7 @@ describe('Teste End-to-End', () => {
         cy.get('.swal-button').click()
     })
     it('Teste 4: Comprar Livro', () => {
-        cy.get('[data-id=3]').within(() => {
+        cy.get('[data-id=2]').within(() => {
             cy.contains('Comprar').click().then
             cy.wait(2000)
          })
